@@ -21,6 +21,7 @@ body {
     font-family: system-ui, sans-serif;
     line-height: 1.5;
     color: var(--color-dark);
+    background-color: #fcf9d7;
 }
 
 /* Headings */
@@ -53,6 +54,8 @@ h1 strong {
 h2 strong {
     color: var(--color-accent);
     font-weight: inherit;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    letter-spacing: 2px;
 }
 
 /* contents */
@@ -134,6 +137,7 @@ footer {
 .header__logo {
     justify-self: center;
     align-self: center;
+    mix-blend-mode: multiply;
 }
 .header__title {
     font-size: 1.6em;
@@ -159,6 +163,9 @@ footer {
 
     background: var(--color-dark);
     color: var(--color-dark--invert);
+}
+.cta__title {
+    margin-top: 0;
 }
 .cta__description {
     max-width: 100%;
